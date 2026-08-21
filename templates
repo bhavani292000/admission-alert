@@ -1,1 +1,19 @@
+Admission AlertNever miss an important counselling update.
+🔔 Enable Alerts
+LIVE ADMISSION DASHBOARD
+KNRUHS · NTRUHS · MCC · TG EAPCET
+One place for admission notifications, counselling schedules, allotments and deadlines.
 
+↻ Check Now
+Official Sources
+{% for s in sources %}{{s.name}}{{s.full_name}}●{% endfor %}
+Latest Alerts
+{% for a in alerts %}
+{{a.priority}}{{a.source}}
+{{a.title}}
+{{a.summary}}
+
+{{a.date}} · {{a.category}}
+View official notification →
+{% endfor %}
+Always verify the original official notification.
